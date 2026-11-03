@@ -14,3 +14,6 @@ function showSlides() {
     slides[slideIndex - 1].style.display = "block";
     setTimeout(showSlides, 2000);
 }
+
+const currentDate = new Date();
+document.getElementById("date").textContent = currentDate.toDateString();
